@@ -8,7 +8,7 @@ install:
   - go get github.com/mattn/goveralls
   - if ! go get github.com/golang/tools/cmd/cover; then go get golang.org/x/tools/cmd/cover; fi
 script:
-  - 'cd test' && $GOPATH/bin/glide install
+  - "cd test" && "$GOPATH/bin/glide install",
   - go test $($GOPATH/bin/glide novendor)
   - $GOPATH/bin/overalls -project=github.com/dgarlitt/practice-go -covermode=count -ignore=.git,vendor -debug
 after_success:
