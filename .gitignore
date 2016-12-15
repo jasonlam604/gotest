@@ -26,3 +26,9 @@ _testmain.go
 bin
 pkg
 src/vendor
+glide.lock
+
+.settings
+.project
+.buildpath
+.DS_Store
