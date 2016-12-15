@@ -10,6 +10,6 @@ install:
 script:
   - cd src && $GOPATH/bin/glide install
   - go test $($GOPATH/bin/glide novendor)
-  - $GOPATH/bin/overalls -project=github.com/dgarlitt/practice-go -covermode=count -ignore=.git,vendor -debug
+  - $GOPATH/bin/overalls -project=github.com/jasonlam604/gotest -covermode=count -ignore=.git,vendor -debug
 after_success:
   - $GOPATH/bin/goveralls -coverprofile=overalls.coverprofile -service=travis-ci
