@@ -1,6 +1,6 @@
 # gotest
 
-[![Build Status](https://travis-ci.org/jasonlam604/gotest.svg?branch=master)](https://travis-ci.org/jasonlam604/gotest)
+[![Build Status](https://travis-ci.org/jasonlam604/gotest.svg?branch=master)](https://travis-ci.org/jasonlam604/gotest) [![Go Report Card](https://goreportcard.com/badge/github.com/jasonlam604/gotest)](https://goreportcard.com/report/github.com/jasonlam604/gotest)
 
 
 
