@@ -10,9 +10,9 @@ Go Skelton project that supports Travis CI, Unit Testing and Glide
 
 ## Prerequisite 
 
-Assumption you have of installed GoLang and set the GOPATH, if not please refer to the (GoLang.org)[https://golang.org/] site
+Assumption you have of installed GoLang and set the GOPATH, if not please refer to the [GoLang.org](https://golang.org/) site
 
-As well, you will need to install (Glide)[https://glide.sh/] the package manager.
+As well, you will need to install [Glide](https://glide.sh/] the package manager).
 
 I personally used brew:
 
@@ -24,7 +24,7 @@ brew install glide
 
 Assuming you have all the prerequisite software installed, first step is to install dependencies using Glide
 
-Note because the *(vendor)[https://golang.org/cmd/go/#hdr-Vendor_Directories]* requirement is to reside under source, the Glide configuration files reside in *src* directory, namely the *glide.yaml* file.
+Note because the *[vendor](https://golang.org/cmd/go/#hdr-Vendor_Directories)* requirement is to reside under source, the Glide configuration files reside in *src* directory, namely the *glide.yaml* file.
 
 
 ```bash
@@ -39,7 +39,7 @@ In this instance of *glide install* the following dependencies are installed:
 
 Go back to the root of GOPATH (your project root)
 
-Run the usual (Go commands)[https://golang.org/cmd/go/]
+Run the usual [Go commands](https://golang.org/cmd/go/)
 
 *Build*
 ```bash
