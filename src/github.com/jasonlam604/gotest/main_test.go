@@ -1,14 +1,14 @@
 package main
 
 import (
-    "testing"
-    "github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestReverseMe(t *testing.T) {
-	assert.Equal(t, "olleh",reverseMe("hello"))
+	assert.Equal(t, "olleh", reverseMe("hello"))
 }
 
 func TestReverseMeAgain(t *testing.T) {
-	assert.Equal(t, "hello",reverseMe("olleh"))
+	assert.Equal(t, "hello", reverseMe("olleh"))
 }
