@@ -1,6 +1,6 @@
 package: .
 import:
-- package: github.com/golang/example
+- package: github.com/jasonlam604/gotest
   subpackages:
   - stringutil
 - package: github.com/stretchr/testify
