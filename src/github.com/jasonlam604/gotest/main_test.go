@@ -1,7 +1,6 @@
 package main
 
 import (
-	"flag"
 	"github.com/stretchr/testify/assert"
 )
 
