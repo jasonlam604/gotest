@@ -1,16 +1,16 @@
 package main
 
 import (
-	"github.com/stretchr/testify/assert"
-	"testing"
 	"flag"
+	"github.com/stretchr/testify/assert"
 	"os"
+	"testing"
 )
 
 func TestMain(m *testing.M) {
-    flag.Parse()
-    code := m.Run()
-    os.Exit(code)
+	flag.Parse()
+	code := m.Run()
+	os.Exit(code)
 }
 
 func TestReverseMe(t *testing.T) {
