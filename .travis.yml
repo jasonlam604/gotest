@@ -10,8 +10,8 @@ install:
   - if ! go get github.com/golang/tools/cmd/cover; then go get golang.org/x/tools/cmd/cover; fi
 script:
   - cd src && $GOPATH/bin/glide install
-  - go test $($GOPATH/bin/glide novendor)
+  - go test $($GOPATH/bin/glide novendor)  
   - $GOPATH/bin/overalls -project=github.com/jasonlam604/gotest -covermode=count -ignore=.git,vendor -debug
 after_success:
-  - $GOPATH/bin/goveralls -coverprofile=overalls.coverprofile -service=travis-ci
-  - $HOME/gopath/bin/goveralls -service=travis-ci
+  - $GOPATH/bin/goveralls -coverprofile=provile.cov -service=travis-ci
+
