@@ -13,6 +13,5 @@ script:
   - go test $($GOPATH/bin/glide novendor)  
   - $GOPATH/bin/overalls -project=github.com/jasonlam604/gotest -covermode=count -ignore=.git,vendor -debug
 after_success:
-  - $GOPATH/bin/goveralls -coverprofile=overalls.coverprofile -service=travis-ci
   - $HOME/gopath/bin/goveralls -service=travis-ci
 
