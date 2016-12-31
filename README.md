@@ -73,16 +73,9 @@ Use Glide in place of go (reminder you do need to be in the /src directory to do
 glide get github.com/go-sql-driver/mysql
 ```
 
-*Run the Program* 
+*Run the Program* (there is no output, just runs empty program see unit tests for testing *main()*  and *reverseMe(string)* )
 ```bash
 ~/bin/gotest
-```
-
-The output should be the reverse of "hello":
-
-*Run the Program* 
-```bash
-olleh
 ```
 
 ## What You Need to Change
